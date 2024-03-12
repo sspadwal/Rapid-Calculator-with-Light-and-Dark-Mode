@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RapidCalci</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+
+    <div class="container" id="main">
+
+        <div class="display">
+            <div id="screen"></div>
+
+        </div>
+        <div class="buttons">
+
+            <div class="row">
+                <button id="one" class="btn unique">C</button>
+                <button id="two" class="btn unique">←</button>
+                <button id="three" class="btn operator unique">%</button>
+                <button id="plus" class="btn operator">/</button>
+            </div>
+
+            <div class="row">
+                <button id="one" class="btn numbers">7</button>
+                <button id="two" class="btn numbers">8</button>
+                <button id="three" class="btn numbers">9</button>
+                <button id="plus" class="btn operator">*</button>
+            </div>
+
+
+
+            <div class="row">
+                <button id="four" class="btn numbers">4</button>
+                <button id="five" class="btn numbers">5</button>
+                <button id="six" class="btn numbers">6</button>
+                <button id="min" class="btn operator">-</button>
+            </div>
+
+            <div class="row">
+
+                <button id="seven" class="btn numbers">1</button>
+                <button id="eight" class="btn numbers">2</button>
+                <button id="nine" class="btn numbers">3</button>
+                <button id="mul" class="btn operator">+</button>
+            </div>
+
+
+            <div class="row">
+
+                <button id="zero" class="btn numbers">0</button>
+                <button id="clear" class="btn numbers">.</button>
+                <button id="equal" class="btn operator">=</button>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <button id="clk" onclick="demo()"> Click </button>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
